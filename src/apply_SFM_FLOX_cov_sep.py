@@ -6,7 +6,7 @@ from tqdm import tqdm
 from src.auxiliar.numeric_jacobian import numeric_jacobian
 #from src.auxiliar.specfit_tayor_l2a_8parms_func_prox_sensing import specfit_tayor_l2a_8parms_func_prox_sensing
 #from src.auxiliar.sif_fwmodel_8parms import sif_fwmodel_8parms
-from src.IPF_sif_retrieval_modified import _l2b_regularized_cost_function_optimization
+from src.sif_retrieval_IPF_v2_1_modified import _l2b_regularized_cost_function_optimization
 
 
 def sif_parms_flox(wl, sif, sif_un):

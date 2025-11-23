@@ -1,4 +1,4 @@
-FLOX_processing_master started at 20251122_03_42_51
+FLOX_processing_master started at 20251123_01_18_40
 data_path   = C:\Users\cogli\Downloads\FLOX-SPECFIT-OE/test_tds
 uncertainty = C:\Users\cogli\Downloads\FLOX-SPECFIT-OE/auxiliar_mat_files/uncertainty_FLOX_v2.mat
 cov         = C:\Users\cogli\Downloads\FLOX-SPECFIT-OE/auxiliar_mat_files\L2RM-AUX-V1-SIF_RHO_prior.nc

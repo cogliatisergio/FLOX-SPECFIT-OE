@@ -1,7 +1,6 @@
 import numpy as np
 import os
 from scipy.io import loadmat
-from src.apply_PH_FLOX import apply_PH_FLOX
 from src.apply_SFM_FLOX_cov_sep import apply_SFM_FLOX_cov_sep_IPF
 
 
