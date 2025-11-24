@@ -1,11 +1,12 @@
-
-from joblib import Parallel, delayed
-from tqdm import tqdm
-import numpy as np
-
+# Basic libraries
 import os
+import numpy as np
+from tqdm import tqdm
+from joblib import Parallel, delayed
+# File and data handling
 import h5py
 from scipy.io import loadmat
+# Custom modules
 from src.sif_retrieval_IPF_v2_1_modified import _l2b_regularized_cost_function_optimization
 
 
@@ -64,10 +65,12 @@ def FLOX_processing(
         )
         return num_spec, reflectance, sif, sif_unc
 
-    # Parallelizzazione
+    # Parallel processing with progress bar
     results = Parallel(n_jobs=-1)(
-        delayed(process_spectrum)(num_spec) for num_spec in range(n_spectra)
+        delayed(process_spectrum)(num_spec) 
+        for num_spec in tqdm(range(n_spectra), desc="Processing spectra")
     )
+
 
     # Ricostruzione degli array
     for num_spec, reflectance, sif, sif_unc in results:
