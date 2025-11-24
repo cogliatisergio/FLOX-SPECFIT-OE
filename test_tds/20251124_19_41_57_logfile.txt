@@ -1,0 +1,21 @@
+FLOX_processing_master started at 20251124_19_41_57
+data_path   = C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds
+uncertainty = C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/auxiliar_mat_files/uncertainty_FLOX_v2.mat
+cov         = C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/auxiliar_mat_files\L2RM-AUX-V1-SIF_RHO_prior.nc
+
+Processing file 1 of 3
+Incoming: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220715\Incoming_radiance_FLUO_100004.csv
+Reflected: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220715\Reflected_radiance_FLUO_100004.csv
+Finished file 1.
+
+Processing file 2 of 3
+Incoming: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220716\Incoming_radiance_FLUO_100007.csv
+Reflected: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220716\Reflected_radiance_FLUO_100007.csv
+Finished file 2.
+
+Processing file 3 of 3
+Incoming: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220717\Incoming_radiance_FLUO_100005.csv
+Reflected: C:\Users\cogli\Downloads\FLOX-pySPECFIT-OE/test_tds\220717\Reflected_radiance_FLUO_100005.csv
+Finished file 3.
+
+FLOX_processing_master completed.

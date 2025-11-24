@@ -4,7 +4,8 @@ import numpy as np
 import pandas as pd
 from netCDF4 import Dataset
 from datetime import datetime
-from src.FLOX_processing import FLOX_processing
+#from src.FLOX_processing import FLOX_processing
+from src.FLOX_processing_parallel import FLOX_processing
 
 
 def FLOX_processing_master(data_path, uncertainty, cov):
